@@ -56,7 +56,7 @@ resource "aws_instance" "example" {
 
 resource "aws_security_group" "instance" {
 
-  name = "ansible-security-group"
+  name = "ansible-security-group1"
 
   #SSH
   ingress {
